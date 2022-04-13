@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  font-weight: 200;
+  color: grey;
+}
+
+.time {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  color: rgb(122, 48, 48);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  button {
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    background: rgb(60, 131, 131);
+    box-shadow: 10px 10px 15px -4px rgb(182, 175, 168);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.modal-background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.modal-container {
+  h2 {
+    color: grey;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 25px;
+}
+
+.App {
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  height: 600px;
+  width: 500px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 15px;
+}
+
+.modal-row {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  button {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    border: none;
+    background: rgb(60, 131, 131);
+    box-shadow: 10px 10px 15px -4px rgb(97, 96, 96);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+}
